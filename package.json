@@ -1,0 +1,20 @@
+{
+  "name": "polar-to-cartesian",
+  "description": "Converts polar coordinates to cartesian coordinates.",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "author": "Rahat Ahmed",
+  "repository": "rahatarmanahmed/polar-to-cartesian",
+  "scripts": {
+    "lint": "eslint src/ test/",
+    "test": "tap test",
+    "pretest": "npm run lint",
+    "prepublish": "npm run test"
+  },
+  "devDependencies": {
+    "eslint": "~2.2.0",
+    "eslint-config-kellyirc": "^3.1.0",
+    "tap": "^5.7.0"
+  }
+}
